@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  position: relative;
+  height: 95vh;
+  width: 100%;
+  background: linear-gradient(#3d9fe9, #125ff0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  clip-path: polygon(0 0, 100% 0, 100% 84%, 64% 84%, 50% 100%, 36% 84%, 0 84%);
+}
+
+section h1 {
+  font-family: sans-serif;
+  text-align: center;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 55px;
+  letter-spacing: 18px;
+}
+
+span {
+  font-size: 22px;
+  letter-spacing: 2px;
+}
